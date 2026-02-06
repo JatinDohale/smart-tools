@@ -1,0 +1,1 @@
+export const TOOLS_PER_PAGE = 12 
