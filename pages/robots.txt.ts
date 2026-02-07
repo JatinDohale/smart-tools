@@ -1,7 +1,7 @@
 import { GetServerSideProps } from "next"
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
+  process.env.NEXT_PUBLIC_SITE_URL || "https://smart-tools-weld.vercel.app"
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   res.setHeader("Content-Type", "text/plain")
